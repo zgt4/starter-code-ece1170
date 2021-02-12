@@ -1,4 +1,9 @@
 package hotciv.standard;
 
-public class TileImpl {
+import hotciv.framework.*;
+public class TileImpl implements Tile {
+    public String getTypeString( ){
+        String tile ="";
+        return tile;
+    };
 }
